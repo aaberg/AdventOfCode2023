@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="input.txt" />
+      <EmbeddedResource Include="input.txt" />
+      <None Remove="inputTest.txt" />
+      <EmbeddedResource Include="inputTest.txt" />
+      <None Remove="inputTest2.txt" />
+      <EmbeddedResource Include="inputTest2.txt" />
+    </ItemGroup>
+
+</Project>
