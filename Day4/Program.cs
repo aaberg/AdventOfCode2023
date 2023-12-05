@@ -1,7 +1,6 @@
 ﻿using System.Diagnostics;
-using System.Reflection;
 
-var inputStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Day4.input.txt")!;
+var inputStream = File.OpenRead(args[0]);
 var input = new StreamReader(inputStream).ReadToEnd();
 
 var inputLines = input.Split("\n").Select(l => l.Replace("\r", "")).ToList();
