@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System.Reflection;
-using TheLibrary;
+﻿using TheLibrary;
 
 var inputStream = File.OpenRead(args[0]);
 

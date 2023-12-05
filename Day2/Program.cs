@@ -1,15 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System.Reflection;
+﻿using System.Reflection;
 using TheLibrary.Day2;
 
-
 // Read file and parse
-var inputStream = Assembly
-    .GetExecutingAssembly()
-    .GetManifestResourceStream("Day2.input.txt");
-if (inputStream is null) throw new Exception("Input wasn't read correctly.");
-
+var inputStream = File.OpenRead(args[0]);
 var inputLines = new StreamReader(inputStream)
     .ReadToEnd()
     .Split("\n")
