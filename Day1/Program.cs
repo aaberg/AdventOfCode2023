@@ -3,7 +3,7 @@
 using System.Reflection;
 using TheLibrary;
 
-var inputStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Day1.input.txt");
+var inputStream = File.OpenRead(args[0]);
 
 var input = new StreamReader(inputStream).ReadToEnd();
 

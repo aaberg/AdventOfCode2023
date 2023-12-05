@@ -9,9 +9,6 @@
 
     <ItemGroup>
       <None Remove="input.txt" />
-      <EmbeddedResource Include="input.txt">
-        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup>
