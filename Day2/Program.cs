@@ -1,5 +1,4 @@
-﻿using System.Reflection;
-using TheLibrary.Day2;
+﻿using TheLibrary.Day2;
 
 // Read file and parse
 var inputStream = File.OpenRead(args[0]);

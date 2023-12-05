@@ -1,9 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Day3;
 
-using System.Reflection;
-using Day3;
-
-var inputStream = Assembly.GetExecutingAssembly().GetManifestResourceStream("Day3.input.txt")!;
+var inputStream = File.OpenRead(args[0]);
 var input = new StreamReader(inputStream).ReadToEnd();
 
 var inputLines = input.Split("\n");

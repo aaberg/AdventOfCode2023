@@ -9,11 +9,8 @@
 
     <ItemGroup>
       <None Remove="input.txt" />
-      <EmbeddedResource Include="input.txt" />
       <None Remove="inputTest.txt" />
-      <EmbeddedResource Include="inputTest.txt" />
       <None Remove="inputTest2.txt" />
-      <EmbeddedResource Include="inputTest2.txt" />
     </ItemGroup>
 
 </Project>
